@@ -1,0 +1,28 @@
+.Navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.Navbar-logo img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.Navbar-links .Navbar-link {
+  margin-right: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+}
+
+.Navbar-links .Navbar-link:hover {
+  color: lightblue;
+}
